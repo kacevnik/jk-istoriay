@@ -205,7 +205,9 @@ header{
 
 #promo{
     padding: 115px 0 120px 0;
-    background: url('../img/temp/promo_bg_2.png')no-repeat;
+    background: url( '../img/temp/promo_bg_2.png' )no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #promo .row{
@@ -311,7 +313,7 @@ header{
 }
 
 #plan h2{
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 }
 
 .set_plan{
@@ -335,24 +337,25 @@ header{
 
 .count_area span{
     width: 45px;
-    height: 35px;
+    height: 45px;
     margin: 0 10px 0 0;
-    line-height: 35px;
+    line-height: 42px;
     text-align: center;
     border: 1px solid #e5e5e5;
     color: #cbcbcb;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -o-border-radius: 8px;
     display: inline-block;
     cursor: pointer;
 }
 
-.count_area span.active, .count_area span:hover{
+.count_area span:hover {
+    border: 1px solid #d96958;
+    color: #d96958;
+}
+
+.count_area span.active {
     color: #fff;
-    background: #80c102;
-    border: 1px solid #80c102;
+    background: #d96958;
+    border: 1px solid #d96958;
 }
 
 .check_sqd span{
@@ -392,11 +395,12 @@ header{
 }
 
 .price .ui-state-default{
-    background: rgb(128, 193, 2);
+    background: #d96958;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: 1px solid rgb(128, 193, 2);
+    border: 1px solid #d96958;
     cursor: pointer;
+    top: -8px;
 }
 
 .price .ui-state-default:focus{
@@ -404,7 +408,7 @@ header{
 }
 
 .price .ui-slider-horizontal {
-    height: .5em;
+    height: .4em;
 }
 
 .manager{
@@ -415,19 +419,26 @@ header{
     -webkit-border-radius: 50%;
     border-radius: 50%;
     width: 80%;
-    border: 7px solid #80c102;
+    border: 7px solid #d96958;
     margin-bottom: 20px;
 }
 
 .manager .title{
-    color: #005286;
+    color: #878686;
     font-size: 16px;
     font-weight: 300;
 }
 
+.manager .title strong{
+    color: #d96958;
+    font-size: 20px;
+}
+
 .manager .manager_text{
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 20px;
+    color: #000000;
+    font-size: 15px;
 }
 
 .planirovki .item{
@@ -452,28 +463,21 @@ header{
 }
 
 .planirovki_price{
-    position: absolute;
-    background: #eaefff;
+    display: inline-block;
+    background: #d96958;
     padding: 8px 20px;
     font-size: 20px;
     font-weight: 400;
-    bottom: -10px;
-    left: center;
-    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.23);
-    -o-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.23);
-    -moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.23);
-    -webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.23);
-    left: 50%;
-    margin-left: -25%;
+    color: #ffffff;
 }
 
 .scroll .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-    background-color: rgb(128, 193, 2);
+    background-color: #d96958;
     width: 7px;
 }
 
 .scroll .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
-    background-color: rgb(128, 193, 2,.75);
+    background-color: rgba(217, 105, 88, 0.76);
     width: 7px;
 }
 
