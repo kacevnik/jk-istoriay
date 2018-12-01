@@ -7,6 +7,14 @@
 
 @media ( max-width: 992px ) {
 
+    #presentation img {
+        width: 60%
+    }
+
+    .video_link {
+        width: 90%;
+    }
+
     .zapis input {
         margin: 0 20px 20px 0;
         font-size: 18px;
@@ -140,6 +148,19 @@
 
 }
 
+@media ( max-width: 786px ) {
+    .owl-nav {
+        display: none;
+    }
+
+    .video_link {
+        margin: 0 auto 50px auto;
+        height: 300px;
+        font-size: 100px;
+        line-height: 300px;
+    }
+}
+
 @media ( max-width: 670px ) {
 
     #promo {
@@ -195,10 +216,21 @@
     .form_pdf input, .form_pdf button {
         width: 100%;
     }
+
+    .video_link {
+        height: 210px;
+        font-size: 80px;
+        line-height: 210px;
+    }
+
+    #presentation img {
+        width: 90%
+    }
 }
 
 
 @media ( min-width: 992px ) and ( max-width: 1200px ) {
+
     .top_phone {
         font-size: 14px;
     }

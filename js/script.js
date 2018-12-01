@@ -26,7 +26,7 @@ jQuery(document).ready(function ($) {
       responsive:{
         0:{
             items:1
-        },       
+        },
         630:{
             items:2
         },
@@ -101,8 +101,6 @@ jQuery(document).ready(function ($) {
   			$('#more').attr('data_ok', '');
   		}
   	});
-
-    $('#dg-container').gallery();
 
     ymaps.ready(init);
  

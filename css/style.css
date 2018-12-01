@@ -517,8 +517,9 @@ header{
 }
 
 .btn_med{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
+    min-height: 50px;
 }
 
 #infra{
@@ -583,10 +584,27 @@ header{
 }
 
 #ecspo_slider{
+    color: #fff;
     padding: 70px 0;
     background: #f7f7f7 url(../img/temp/ecspo_bg.png)no-repeat right bottom;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+.video_link {
+    margin: 0 auto 50px auto;
+    width: 70%;
+    height: 450px;
+    display: block;
+    background: #000;
+    color: #ffffffd1;
+    font-size: 160px;
+    text-align: center;
+    line-height: 450px;
+}
+
+.video_link:hover {
+    color: #fff;
 }
 
 #ecspo_slider h2{
@@ -649,10 +667,8 @@ header{
     padding: 70px 0;
     text-align: center;
     background: #fff;
-    background: #fff url(../img/temp/bank_bg.png)no-repeat top left;
-    -webkit-background-size: 30% 30%;
-    background-size: 30%;
 }
+
 #ipoteka h2{
     margin-bottom: 50px;
 }
@@ -670,7 +686,7 @@ header{
 
 .ipoteka_arrow{
     font-size: 30px;
-    color: #30c102;
+    color: #d96958;
     margin-bottom: 40px;
 }
 
@@ -710,7 +726,7 @@ header{
 }
 
 #bank_slider .item{
-    border: 1px solid #e5e5e5;
+    border: 1px solid #d96958;
     height: 120px;
     padding: 0 30px;
     text-align: center;
@@ -729,30 +745,35 @@ header{
 
 #bank_slider .arrow_prev_owl,  #bank_slider .arrow_next_owl{
     position: absolute;
-    top: 40px;
-    width: 45px;
-    height: 45px;
-    border: 2px solid #30c102;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    color: #30c102;
-    font-size: 30px;
+    top: 50%;
+    margin-top: -33px;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #d96958;
+    color: #d96958;
+    font-size: 51px;
     text-align: center;
-    line-height: 39px;
+    line-height: 60px;
     cursor: pointer;
 } 
 
 #bank_slider .arrow_prev_owl:hover,  #bank_slider .arrow_next_owl:hover{
     color: #fff;
-    background: #30c102;
+    background: #d96958;
 }
 
 #bank_slider .arrow_prev_owl{
-    left: -70px;
+    left: -80px;
 }
 
 #bank_slider .arrow_next_owl{
-    right: -70px;
+    right: -80px;
+}
+
+.ipoteka_form .input_text {
+    background: transparent;
+    text-align: center;
+    min-width: 50px;
 }
 
 #info{
