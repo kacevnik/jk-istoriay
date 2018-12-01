@@ -92,7 +92,7 @@
     }
 
     #presentation {
-        padding: 70px 0 0 0;
+        padding: 70px 0 70px 0;
         text-align: center;
     }   
 
@@ -190,6 +190,10 @@
     .zapis input, .zapis button {
         width: 100%;
         padding: 5px;
+    }
+
+    .form_pdf input, .form_pdf button {
+        width: 100%;
     }
 }
 
