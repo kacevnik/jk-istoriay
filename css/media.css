@@ -1,40 +1,24 @@
 
-@media (min-width: 576px) {}
-
-@media (max-width: 670px) {
-
-    .container_header .col-md-7 {
-        display: block;
-    }
-
+@media ( max-width: 1200px ) {
     .top_menu {
-        list-style: none;
-    }
-
-    .top_menu li {
-        list-style: none;
-        margin: 0 0 15px 0;
-        float: none;
-    }
-
-    .top_menu li:last-child {
-        margin: 0;
-    }
-
-    .houses{
-        width: 320px;
-    }
-
-    .houses{
-        width: 320px;
-    }
-
-    .houses_item{
-        width: 100%;
+        font-size: 14px;
     }
 }
 
-@media (max-width: 992px) {
+@media ( max-width: 992px ) {
+
+    .zapis input {
+        margin: 0 20px 20px 0;
+        font-size: 18px;
+    }
+
+    .zapis button {
+        font-size: 18px;
+    }
+
+    .top_menu a {
+        font-size: 18px;
+    }
 
     .logo a {
         position: relative;
@@ -75,23 +59,23 @@
     }
 
     #promo {
-        padding: 70px 0 70px 0;
+        padding: 285px 0 70px 0;
         -webkit-background-size: cover;
         background-size: cover;
     }
 
     .sub_title {
-        font-size: 24px;
+        font-size: 22px;
         text-align: center;
-        margin: 0 0 30px 0;
-    }
-
-    .zapis h3 {
-        font-size: 28px;
+        margin: 0;
     }
 
     .zapis {
-        font-size: 12px;
+        padding: 30px 45px 45px;
+    }
+
+    .zapis h3 {
+        font-size: 24px;
     }
 
     .set_plan {
@@ -156,18 +140,67 @@
 
 }
 
-@media (max-width: 680px) {
+@media ( max-width: 670px ) {
 
+    #promo {
+        padding: 440px 0 70px 0;
+    }
+
+    .zapis input {
+        margin: 0 0 20px 0;
+    }
+
+    .zapis {
+        margin: 60px 20px 35px 20px;
+        padding: 30px 20px 45px;
+    }
+
+    .container_header .col-md-7 {
+        display: block;
+    }
+
+    .top_menu {
+        list-style: none;
+    }
+
+    .top_menu li {
+        list-style: none;
+        margin: 0 0 15px 0;
+        float: none;
+    }
+
+    .top_menu li:last-child {
+        margin: 0;
+    }
+
+    .houses{
+        width: 320px;
+    }
+
+    .houses{
+        width: 320px;
+    }
+
+    .houses_item{
+        width: 100%;
+    }
+}
+
+@media ( max-width: 530px ) {
+    .zapis input, .zapis button {
+        width: 100%;
+        padding: 5px;
+    }
 }
 
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media ( min-width: 992px ) and ( max-width: 1200px ) {
     .top_phone {
         font-size: 14px;
     }
 
     .top_phone span {
-        font-size: 21px;
+        font-size: 25px;
     }
 
     h1 {
