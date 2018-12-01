@@ -1,0 +1,1184 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Жилой комплекс Венеция - Новосибирск</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="3DGallery/css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="3DGallery/js/modernizr.custom.53451.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="logo">
+              <a href="index.html">
+                <img src="img/temp/logo.png" alt="СДС Финанс">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <ul class="top_menu">
+              <li><a href="#plan">Планировка и цены</a></li>
+              <li><a href="#presentation">Презентация</a></li>
+              <li><a href="#infra">Инфраструктура</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="top_menu">
+              <li><a href="#ecspo_slider" class="active">Экскурсия</a></li>
+              <li><a href="#bank_slider">Ипотека</a></li>
+              <li><a href="#info">Застройщик</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <div class="top_phone">
+              Круглосуточная горячая линия<br>
+              <span>+7 383 359 72 59</span>
+            </div>
+          </div>
+          <div class="col-md-3 call_back_container">
+            <a data-fancybox data-src="#call_back_popup" href="javascript:;" class="call_back btn br_2">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              Заказать звонок
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="promo">
+      <div class="black_fon">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="title">
+                <h1>Жилой комплекс<br>«Венеция»</h1>
+                <div class="sub_title">Квартиры от <strong>47,5 тр/м2</strong> в<br><span>5-ти минутах</span> от площади <span>Ленина.</span></div>
+              </div>
+            </div>
+            <div class="col-md-5 col-md-offset-1">
+              <div class="zapis br_10">
+                <h3>Запишитесь<br>на экскурсию<br>в шоу-рум<br>прямо сейчас!</h3>
+                <ul class="check_ul">
+                  <li><i class="fa fa-check"></i>Убедитесь в качестве материалов</li>
+                  <li><i class="fa fa-check"></i>4 варианта отделки на любой вкус</li>
+                  <li><i class="fa fa-check"></i>Консультация по всем вопросам</li>
+                </ul>
+                <form action="send.php" method="post">
+                  <input type="text" placeholder="Введите телефон" name="phone" required="required" class="input_text">
+                  <input type="hidden" placeholder="Введите телефон" name="form" value="Запишись на экскурсию в шоу-рум прямо сейчас">
+                  <input type="submit" name="submit" class="btn br_2" onclick="yaCounter47038047.reachGoal('ecs'); return true;">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="plan">
+      <div class="container">
+        <h2>Планировки и цены на квартиры в ЖК «Венеция»</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="set_plan br_10">
+              <div class="item count_area">
+                <div class="title">Количество комнат</div>
+                <span class="active" data-span="1">1</span>
+                <span class="active" data-span="2">2</span>
+                <span class="active" data-span="3">3</span>
+              </div>
+              <div class="item price">
+                <div class="title">Цена на квартиру</div>
+                <div class="count_price">
+                  <!--***** Для настройки Рендж слайдера отредактируйте файл scripts.js (можно изменить максимальное и минимальное значение, значения по умолчанию и шаг слайдера) *****-->
+                   <div id="slider-range"></div>
+                   <span id="slider_price_left"></span>
+                   <span id="slider_price_right"></span>
+                </div>
+              </div>
+              <div class="item manager">
+                <div class="manager_img">
+                  <img src="img/temp/meneger_2.jpg" alt="Эксперт ЖК «Венеция»">
+                </div>
+                <div class="title">Наталья<br>Эксперт ЖК «Венеция»</div>
+                <div class="manager_text">Нажмите на кнопку и эксперт проекта за 25 минут бесплатно подберет вам 2-3 подходящих варианта</div>
+                <a class="btn" data-fancybox data-src="#select" href="javascript:;">Подобрать вариант</a>
+              </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="planirovki scroll">
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_1" href="javascript:;">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_1.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 923 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_2" href="javascript:;">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_2.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 686 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->             
+               <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_3" href="javascript:;">
+                    <div class="planirovki_title">2-x комнатная квартира</div>
+                    <img src="img/data/house_3.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 2 664 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_4" href="javascript:;">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_4.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 778 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_5" href="javascript:;">
+                    <div class="planirovki_title">2-x комнатная квартира</div>
+                    <img src="img/data/house_5.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 2 639 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_6" href="javascript:;">
+                    <div class="planirovki_title">3-х комнатная квартира</div>
+                    <img src="img/data/house_6.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 3 352 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_7" href="javascript:;">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_7.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 871 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_8" href="javascript:;">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_8.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 686 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_9" href="javascript:;">
+                    <div class="planirovki_title">2-х комнатная квартира</div>
+                    <img src="img/data/house_9.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 2 464 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_10" href="javascript:;">
+                    <div class="planirovki_title">1-х комнатная квартира</div>
+                    <img src="img/data/house_10.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 778 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_11" href="javascript:;">
+                    <div class="planirovki_title">2-х комнатная квартира</div>
+                    <img src="img/data/house_11.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 2 639 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_12" href="javascript:;">
+                    <div class="planirovki_title">3-х комнатная квартира</div>
+                    <img src="img/data/house_12.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 3 352 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_13" href="javascript:;">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_13.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 727 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->
+            </div>            
+            <div class="planirovki_hide" style="display: none">
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_1" href="javascript:;" data-count="1" data-price="1923">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_1.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 923 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_2" href="javascript:;" data-count="1" data-price="1686">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_2.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 686 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->             
+               <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_3" href="javascript:;" data-count="2" data-price="2664">
+                    <div class="planirovki_title">2-x комнатная квартира</div>
+                    <img src="img/data/house_3.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 2 664 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_4" href="javascript:;" data-count="1" data-price="1778">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_4.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 778 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_5" href="javascript:;" data-count="2" data-price="2639">
+                    <div class="planirovki_title">2-x комнатная квартира</div>
+                    <img src="img/data/house_5.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 2 639 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_6" href="javascript:;" data-count="3" data-price="3352">
+                    <div class="planirovki_title">3-х комнатная квартира</div>
+                    <img src="img/data/house_6.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 3 352 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_7" href="javascript:;" data-count="1" data-price="1871">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_7.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 871 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_8" href="javascript:;" data-count="1" data-price="1686">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_8.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 686 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_9" href="javascript:;" data-count="2" data-price="2464">
+                    <div class="planirovki_title">2-х комнатная квартира</div>
+                    <img src="img/data/house_9.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 2 464 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_10" href="javascript:;" data-count="1" data-price="1778">
+                    <div class="planirovki_title">1-х комнатная квартира</div>
+                    <img src="img/data/house_10.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 778 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              
+              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_11" href="javascript:;" data-count="2" data-price="2639">
+                    <div class="planirovki_title">2-х комнатная квартира</div>
+                    <img src="img/data/house_11.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 2 639 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_12" href="javascript:;" data-count="3" data-price="3352">
+                    <div class="planirovki_title">3-х комнатная квартира</div>
+                    <img src="img/data/house_12.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 3 352 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->              <!--***** row items home *****-->
+              <div class="row">
+                <div class="col-md-6">
+                  <a class="item br_10" data-fancybox data-src="#house_13" href="javascript:;" data-count="1" data-price="1727">
+                    <div class="planirovki_title">1 комнатная квартира</div>
+                    <img src="img/data/house_13.jpg" alt="">
+                    <div class="planirovki_price br_5">
+                      от 1 727 тыс. <i class="fa fa-rub"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--***** end row items home *****-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="presentation">
+      <div class="container">
+        <h2>Презентация ЖК «Венеция»</h2>
+        <div class="row">
+          <div class="col-md-4 presentation_text">
+            <p>Расположение жилого 
+комплекса, планируемые очереди, инфраструктура отзывы владельцев, планировки и цены на квартиры в жилом комплексе «Венеция» в нашей презентации.</p>
+            <form method="post" action="send.php" class="form_pdf">
+              <input type="text" name="phone" placeholder="Номер телефона" class="input_text" required="required"><br>
+              <input type="hidden" name="form" value="Скачать презентацию">
+              <input type="submit" class="btn" value="Скачать презентацию" name="submit" onclick="yaCounter47038047.reachGoal('download'); return true;">
+              <a href="/img/data/press.pdf" style="display: none;" download="download" id="form_pdf">Скачать</a>
+            </form>
+          </div>
+          <div class="col-md-8"><img src="img/temp/presentation.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <section id="infra">
+      <h2>Инфраструктура ЖК «Венеция»</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 infra_sub_title">Жилой комплекс «Венеция» расположен на берегу реки Обь в Левобережной части города, в 5-ти минутах езды от центра правого берега
+          </div>
+          <div class="col-md-12">
+            <div class="img_body br_10"><img src="img/temp/infra_map.png" alt=""></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="item br_10">
+              <img src="img/temp/infra_1.png" alt="">
+              <span class="infra_ico_1">Детский садик<br>в 2-х шагах</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="item" br_10>
+              <img src="img/temp/infra_2.png" alt="">
+              <span class="infra_ico_2">Школа в<br>10 минутах</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="item br_10">
+              <img src="img/temp/infra_3.png" alt="">
+              <span class="infra_ico_3">Гипермаркеты<br>в 5 минутах</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="item br_10">
+              <img src="img/temp/infra_4.png" alt="">
+              <span class="infra_ico_4">Вид на берег<br>Оби</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ecspo_slider">
+      <div class="container">
+        <h2>Экскурсия по ЖК «Венеция»</h2>
+        <div class="ecspo_slider_body">
+          <!--****** Желательный размер картинок 482х316 px ******-->
+          <div id="dg-container" class="dg-container">
+            <div class="dg-wrapper">
+              <a data-fancybox href="https://www.youtube.com/watch?v=rLic4hgD5tA" class="br_5">
+                <img src="img/temp/slide.png" alt="image01">
+                <div class="bg_fon"></div>
+                <span class="dg_video">
+                  <i class="fa fa-play-circle-o"></i>
+                </span>
+              </a>
+              <a data-fancybox href="https://www.youtube.com/watch?v=rLic4hgD5tA" class="br_5">   
+                <img src="img/temp/slide.png" alt="image01">
+                <div class="bg_fon"></div> 
+                <span class="dg_video">
+                  <i class="fa fa-play-circle-o"></i>
+                </span>
+              </a>
+              <a data-fancybox href="https://www.youtube.com/watch?v=rLic4hgD5tA" class="br_5">
+                <img src="img/temp/slide.png" alt="image01">
+                <div class="bg_fon"></div>
+                <span class="dg_video">
+                  <i class="fa fa-play-circle-o"></i>
+                </span>
+              </a>
+            </div>
+            <nav> 
+              <span class="dg-prev"><</span>
+              <span class="dg-next">></span>
+            </nav>
+          </div>
+        </div>
+        <div class="ecspo_slider_footer">
+          <a data-fancybox data-src="#session" href="javascript:;" class="btn btn_med">Записаться на экскурсию</a>
+          <div class="ecspo_slider_title">Посетите стройплощадку и шоурум с 3-мя вариантами ремонта</div>
+        </div>
+      </div>
+    </section>
+    <section id="ipoteka">
+      <h2>Узнай как выгодно взять ипотеку от 9,5%?</h2>
+      <div class="container">
+        <div class="row">
+          <div class="ipoteka_sub_title">Специальные условия от застройщика, ипотека<br>без первоначального взноса.</div>
+          <div class="col-xs-10 col-xs-offset-1">
+            <div id="bank_slider" class="owl-carousel">
+              <div class="item br_10"><img src="img/temp/bank_1.png" alt=""></div>
+              <div class="item br_10"><img src="img/temp/bank_2.png" alt=""></div>
+              <div class="item br_10"><img src="img/temp/bank_3.png" alt=""></div>
+              <div class="item br_10"><img src="img/temp/bank_4.png" alt=""></div>
+              <div class="item br_10"><img src="img/temp/bank_5.png" alt=""></div>
+              <div class="item br_10"><img src="img/temp/bank_6.png" alt=""></div>
+              <div class="item br_10"><img src="img/temp/bank_7.png" alt=""></div>
+              <div class="item br_10"><img src="img/temp/bank_8.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="ipoteka_sub_title_big">
+            Оставьте заявку и получите расчет ежемесячного платежа во всех банках
+          </div>
+          <div class="ipoteka_arrow">
+            <i class="fa fa-arrow-down"></i>
+            <i class="fa fa-arrow-down"></i>
+          </div>
+          <div class="ipoteka_form">
+            <form action="send.php" method="post">
+              <div class="col-md-3">
+                <input type="text" placeholder="Желаемая сумма" name="summa" required="" class="input_text">
+              </div>
+              <div class="col-md-3">
+                <input type="text" placeholder="Первоначальный взнос" name="vnos" required="" class="input_text">
+              </div>
+              <div class="col-md-3">
+                <input type="text" placeholder="Срок ипотеки" name="time" required="" class="input_text">
+              </div>
+              <div class="col-md-3">
+                <select name="bank">
+                  <option value="Выберите банк" checked="checked">Выберите банк</option>
+                  <option value="ВТБ Банк">ВТБ Банк</option>
+                  <option value="Сбербанк">Сбербанк</option>
+                  <option value="Гаспромбанк">Гаспромбанк</option>
+                  <option value="Связь Банк">Связь Банк</option>
+                  <option value="ВТБ - Банк Москвы">ВТБ - Банк Москвы</option>
+                  <option value="РоссельхозБанк">РоссельхозБанк</option>
+                  <option value="Абсолют Банк">Абсолют Банк</option>
+                  <option value="Уралсиб Банк">Уралсиб Банк</option>
+                </select>
+              </div>
+              <div class="col-md-3 col-md-offset-3">
+                <input type="text" placeholder="Введите имя" name="name" required="" class="input_text">
+              </div>
+              <div class="col-md-3">
+                <input type="text" placeholder="Введите телефон" name="phone" class="input_text">
+              </div>
+              <div class="col-xs-12">
+                <input type="hidden" name="form" value="Подбор банка для ипотеки">
+                <input type="submit" name="submit" value="Получить расчет ипотеки" class="btn btn_med" onclick="yaCounter47038047.reachGoal('ipoteka'); return true;">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="info">
+      <h2>Информация о застройщике ЖК «Венеция»</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 project_img">
+            <img src="img/temp/sds_logo.png" alt="СДС финанс">
+            <a href="http://xn----dtbjabqj1a6f8d.xn--p1ai/uploaded/pr/68/1469981599-d2.pdf" target="_blank">
+              <img src="img/temp/pdf.png" alt="Проектная деклрация">
+              <div class="fon"><i class="fa fa-search-plus"></i></div>
+            </a>
+            <span>Проектная деклрация</span>
+          </div>
+          <div class="col-md-9">
+            <div class="info_sub_title">
+              Холдинговая компания «СДС»
+            </div>
+            <ul class="check_ul">
+              <li><i class="fa fa-check"></i>
+                <span class="item_title">
+                  ЛИДЕР рынка строительства недвижимости Кузбасса.
+                </span><br>
+                <span class="item_body">
+                Компания возвела 1 миллион 200 тысяч м2 жилья. Новоселами стали 17 тысяч
+              </span>
+              </li>
+              <li><i class="fa fa-check"></i>
+                <span class="item_title">
+                  Надежный застройщик! Каждый дом сдан вовремя!
+                </span><br>
+                <span class="item_body">
+                ХК «СДС» работает на рынке строительной недвижимости свыше 10 лет.
+              </span>
+              </li>
+              <li><i class="fa fa-check"></i>
+                <span class="item_title">
+                  Строительство домов по всей Сибири!
+                </span><br>
+                <span class="item_body">
+                Строим в городах: Кемерово, Березовский, Ленинск-Кузнецкий, Прокопьевск, Анжеро-Судженск, Новосибирск, Красноярск.
+              </span>
+              </li>
+              <li><i class="fa fa-check"></i>
+                <span class="item_title">
+                  Собственное производство ж/б панелей
+                </span><br>
+                <span class="item_body">
+                Разработана и внедрена уникальная серия домов сборного железобетона «СДС-2010», по немецкой технологии EBAWE. Абсолютно гладкие стены без штукатурки
+              </span>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="map_block">
+      <h2>Расположение ЖК «Венеция»</h2>
+      <div class="map_sub_title">ЖК «Венеция» находится на левом берегу Оби, возле Димитровского моста</div>
+      <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+      <div id="map">
+        
+      </div>
+      <div class="map_zapis">
+          <a data-fancybox data-src="#session" href="javascript:;" class="btn btn_med">Записаться на экскурсию</a>
+      </div>
+    </section>
+    <footer>
+      <div class="top_footer">
+        <div class="container">
+                  <div class="row">
+          <div class="col-md-2">
+            <div class="logo">
+              <a href="index.html">
+                <img src="img/temp/logo.png" alt="СДС Финанс">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <ul class="top_menu">
+              <li><a href="#plan">Планировка и цены</a></li>
+              <li><a href="#presentation">Презентация</a></li>
+              <li><a href="#infra">Инфраструктура</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="top_menu">
+              <li><a href="#ecspo_slider" class="active">Экскурсия</a></li>
+              <li><a href="#bank_slider">Ипотека</a></li>
+              <li><a href="#info">Застройщик</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <div class="top_phone">
+              Круглосуточная горячая линия<br>
+              <span>+7 383 359 72 59</span>
+            </div>
+          </div>
+          <div class="col-md-3 call_back_container">
+            <a data-fancybox data-src="#call_back_popup" href="javascript:;" class="call_back btn br_2">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              Заказать звонок
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="bottom_footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 left">
+              <a href="">Политика конфиденциальности</a>
+            </div>
+            <div class="col-md-6 right">
+              Вся информация на сайте не является публичной офертой.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--**** PopUp ********-->
+    <div class="popup br_10" id="call_back_popup">
+      <h4>Укажите телефон<br> и мы Вам<br> перезвоним</h4>
+      <form action="send.php" method="post">
+        <input type="text" name="phone" placeholder="Номер телефона" class="input_text">
+        <input type="hidden" name="form" value="Перезвоните мне!">
+        <input type="submit" class="btn" value="Отправить" name="submit" onclick="yaCounter47038047.reachGoal('call-back'); return true;">
+      </form>
+    </div>
+
+    <a data-fancybox data-src="#thanks" href="javascript:;" style="display: none;" id="thanks_link">Thanks</a>
+
+    <div class="popup" id="thanks">
+      <h4>Спасибо</h4>
+      <p class="green">В ближайшее время с Вами свяжется наш специалист.</p>
+    </div>
+
+    <div class="popup br_10" id="select">
+      <h4>Укажите телефон<br> и мы Вам<br> перезвоним</h4>
+      <form action="send.php" method="post">
+        <input type="text" name="name" placeholder="Ваше имя" class="input_text" required="required">
+        <input type="text" name="phone" placeholder="Номер телефона" class="input_text">
+        <input type="hidden" name="count_area" value="1">
+        <input type="hidden" name="sqd" value="">
+        <input type="hidden" name="price" value="">
+        <input type="hidden" name="form" value="Подбобрать квартиру">
+        <input type="submit" class="btn" value="Отправить" name="submit" onclick="yaCounter47038047.reachGoal('podbor'); return true;">
+      </form>
+    </div>
+
+
+    <div class="popup br_10" id="session">
+      <h4>Укажите телефон<br>и Ваше имя,<br>и мы Вас пригласим</h4>
+      <form action="send.php" method="post">
+        <input type="text" name="name" placeholder="Ваше имя" class="input_text">
+        <input type="text" name="phone" placeholder="Номер телефона" class="input_text">
+        <input type="hidden" name="form" value="Записаться на экскурсию">
+        <input type="submit" class="btn" value="Отправить" name="submit" onclick="yaCounter47038047.reachGoal('zapis'); return true;">
+      </form>
+    </div>    
+
+
+    <div class="popup br_10 houses" id="house_1">
+      <h3>1 комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_1.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">38.5 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №1">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_2">
+      <h3>1 комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_2.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">34.1 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №2">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_3">
+      <h3>2-х комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_3.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">50,9 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №3">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_4">
+      <h3>1 комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_4.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">33,9 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №4">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_5">
+      <h3>2-х комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_5.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">55,6 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №5">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_6">
+      <h3>3-х комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_6.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">72,2 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №6">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_7">
+      <h3>1 комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_7.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">36,0 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №7">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_8">
+      <h3>1 комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_8.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">34,1 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №8">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_9">
+      <h3>2-х комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_9.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">50,9 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №9">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div> 
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_10">
+      <h3>1 комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_10.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">33,9 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №10">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_11">
+      <h3>2-х комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_11.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">55,6 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №11">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div> 
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_12">
+      <h3>3-х комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_12.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">72,2 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №12">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+
+    <!--***** Popup select home *****-->
+    <div class="popup br_10 houses" id="house_13">
+      <h3>1 комнатная квартира</h3>
+      <div class="houses_item">
+        <div class="houses_img"> 
+          <img src="img/data/house_13.jpg" alt="">
+        </div>
+      </div>
+      <div class="houses_item">
+          <div class="houses_title">Площадь</div>
+          <div class="houses_p">
+            <span class="btn">33,6 м2</span>
+          </div>
+          <div class="houses_title">Варианты отделки</div>
+          <form action="send.php" method="post">
+            <select name="otdelka" class="form_select">
+              <option value="Нет" selected="selected">Выберете отделку</option>
+              <option value="Черновая отделка">Черновая отделка</option>
+              <option value="Чистовая отделка">Чистовая отделка</option>
+              <option value="Скандинавский стиль">Скандинавский стиль</option>
+              <option value="Европейская классика">Европейская классика</option>
+              <option value="Современный фьюжн">Современный фьюжн</option>
+              <option value="Уютная неоклассика">Уютная неоклассика</option>
+            </select>
+            <input type="hidden" name="form" value="Узнать стоимость квартира №13">
+            <input type="text" name="phone" required="required" class="input_text" placeholder="Укажите номер">
+            <input type="submit" name="submit" value="Узнать стоимость" class="btn">
+          </form>
+      </div>
+    </div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter47038047 = new Ya.Metrika({
+                    id:47038047,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/47038047" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mikeinput.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="fancybox/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="3DGallery/js/jquery.gallery.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
