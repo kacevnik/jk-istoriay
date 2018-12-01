@@ -528,6 +528,13 @@ header{
 
 #infra .item img{
     width: 100%;
+    margin: 0 0 20px 0;
+}
+
+#infra .item {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 #infra h2{
