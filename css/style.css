@@ -292,7 +292,7 @@ header{
 }
 
 .check_ul i{
-    color: #80c102;
+    color: #d96958;
     margin-right: 15px;
 }
 
@@ -855,9 +855,9 @@ header{
 }
 
 #info .item_title{
-    font-weight: 300;
+    font-weight: 500;
     font-size: 24px;
-    color: #30c102;
+    color: #d96958;
 }
 
 #info .item_body{
@@ -1035,6 +1035,22 @@ header{
     -webkit-border-radius: 0;
     border-radius: 0;
     color: #c34f3d;
+}
+
+footer {
+    padding: 25px 0;
+}
+
+footer .top_menu a {
+    color: #000;
+}
+
+footer .top_menu a:hover {
+    color: #000;
+}
+
+footer .top_menu a:hover:after {
+    background: #000;
 }
 
 

@@ -7,6 +7,10 @@
 
 @media ( max-width: 992px ) {
 
+    .project_img img.mid_logo {
+        width: 35%;
+    }
+
     #presentation img {
         width: 60%
     }
