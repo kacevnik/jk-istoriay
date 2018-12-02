@@ -1,13 +1,13 @@
 jQuery(document).ready(function ($) {
-	new WOW().init();
+  new WOW().init();
 
-	//Иницилизация и отправка плагина AjaxForm отправки даных из форм
+  //Иницилизация и отправка плагина AjaxForm отправки даных из форм
     $('form').ajaxForm(function(){
-		//$("a[title='Close']").trigger("click");
-		$('form').clearForm();
-		$(".fancybox-close-small").trigger("click");
+    //$("a[title='Close']").trigger("click");
+    $('form').clearForm();
+    $(".fancybox-close-small").trigger("click");
     $("#thanks_link").trigger("click");
-	});
+  });
 
     $('.form_pdf input[name="submit"]').click(function(event) {
       if($('.form_pdf input[name="phone"]').val() != '' && $('.form_pdf input[name="phone"]').val() != ' '){
@@ -37,20 +37,20 @@ jQuery(document).ready(function ($) {
       navText: ['<div class="arrow_prev_owl"><i class="fa fa-angle-left"></i></div>', '<div class="arrow_next_owl"><i class="fa fa-angle-right"></div>']
     });     
 
-  	//Плавная прокрутка
+    //Плавная прокрутка
   $("a[href*='#']").bind("click", function(e){
-		var anchor = $(this);
-		$('html, body').stop().animate({
-			scrollTop: $(anchor.attr('href')).offset().top
-		}, 500);
-		e.preventDefault();
-		return false;
-	});
+    var anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $(anchor.attr('href')).offset().top
+    }, 500);
+    e.preventDefault();
+    return false;
+  });
 
-  	//Библиотека Fancybox
+    //Библиотека Fancybox
   $("[data-fancybox]").fancybox({
-  		padding: '300px'
-	});
+      padding: '300px'
+  });
 
   $(".scroll").mCustomScrollbar({
     axis:"y",
@@ -77,30 +77,30 @@ jQuery(document).ready(function ($) {
     $( "#slider_price_right" ).html('до ' + $( "#slider-range" ).slider( "values", 1 ) + ' тыс.');
     $('#select input[name="price"]').val('от ' + $( "#slider-range" ).slider( "values", 0 ) + ' до ' + $( "#slider-range" ).slider( "values", 1 ));
 
-  	//Маска под телефонный номер для поля Input
-  	$('input[name="phone"]').mask("+7 (999) 999-99-99"); 	
+    //Маска под телефонный номер для поля Input
+    $('input[name="phone"]').mask("+7 (999) 999-99-99");  
 
-  	$('#select_body .select_body_show .item a').click(function(event) {
-  		$('#select_body .select_body_show .item a').removeClass('selected');
-  		$(this).addClass('selected');
-  		if($('#more').attr('data_to') == 'step_2'){
-  			$('#select_body input[name="home"]').val($(this).html());
-  		}  		
-  		if($('#more').attr('data_to') == 'step_3'){
-  			$('#select_body input[name="fuel"]').val($(this).html());
-  		}
-  		$('#more').attr('data_ok', 'ok');
-  		return false;
-  	});
+    $('#select_body .select_body_show .item a').click(function(event) {
+      $('#select_body .select_body_show .item a').removeClass('selected');
+      $(this).addClass('selected');
+      if($('#more').attr('data_to') == 'step_2'){
+        $('#select_body input[name="home"]').val($(this).html());
+      }     
+      if($('#more').attr('data_to') == 'step_3'){
+        $('#select_body input[name="fuel"]').val($(this).html());
+      }
+      $('#more').attr('data_ok', 'ok');
+      return false;
+    });
 
-  	$('#select_body input').keyup(function(event) {
-  		if($(this).val() != ''){
-  			$('#more').attr('data_ok', 'ok');
-  		}
-  		else{
-  			$('#more').attr('data_ok', '');
-  		}
-  	});
+    $('#select_body input').keyup(function(event) {
+      if($(this).val() != ''){
+        $('#more').attr('data_ok', 'ok');
+      }
+      else{
+        $('#more').attr('data_ok', '');
+      }
+    });
 
     ymaps.ready(init);
  
@@ -122,7 +122,7 @@ function init () {
                     // Путь до нашей картинки
                     iconImageHref: 'img/temp/logo_for_map.png', 
                     // Размер по ширине и высоте
-                    iconImageSize: [200, 131],
+                    iconImageSize: [100, 100],
                     // Смещение левого верхнего угла иконки относительно
                     // её «ножки» (точки привязки).
                     iconImageOffset: [-35, -35]
